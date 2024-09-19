@@ -78,6 +78,7 @@ function scene.keyDown(key,rep)
                 files={}
                 filePathSet={}
                 state.explore.scroll=0
+                collectgarbage()
             else
                 local output=""
                 for i=#files,1,-1 do
